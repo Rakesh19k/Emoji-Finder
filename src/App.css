@@ -1,0 +1,37 @@
+.emoji-list{
+  cursor: pointer;
+  border-top : 1px solid rgb(136, 132, 132);
+  height: 40px;
+  font-size: 25px;
+}
+
+.emoji-title{
+  font-size: 12px;
+}
+
+
+
+.li-div:hover{
+  background-color:rgb(212, 211, 211);
+}
+
+.input{
+  border-radius: 5px;
+  border: 1px solid;
+  height: 35px;
+ 
+}
+
+.search-box{
+  margin-left: 10px;
+}
+
+.copy{
+  display: none;
+  position: relative;
+  color: rgb(69, 113, 151);
+}
+
+.emoji-list:hover .copy{
+  display: block;
+}
